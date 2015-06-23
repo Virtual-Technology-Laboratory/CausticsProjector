@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CausticsGenerator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Caustics>
+    <FrameCount>60</FrameCount>
+    <Resolution>512</Resolution>
+    <Depth>6.688889</Depth>
+    <Intensity>0.0655676648</Intensity>
+    <AmplitudeFilter>0.08598247</AmplitudeFilter>
+    <FrequencyFilter>0.25555557</FrequencyFilter>
+    <TimeFilter>7.77777767</TimeFilter>
+    <BackgroundColor>
+      <A>255</A>
+      <R>42</R>
+      <G>43</G>
+      <B>44</B>
+      <ScA>1</ScA>
+      <ScR>0.0231533684</ScR>
+      <ScG>0.024157634</ScG>
+      <ScB>0.0251868609</ScB>
+    </BackgroundColor>
+    <BackgroundIntensity>1</BackgroundIntensity>
+  </Caustics>
+  <Output>
+    <Size>512</Size>
+    <SaveAsBmp>true</SaveAsBmp>
+    <SaveAsHdr>false</SaveAsHdr>
+    <SaveHeightMap>false</SaveHeightMap>
+    <SaveNormalMap>false</SaveNormalMap>
+    <OutputFileName>C:\Users\roger\Pictures\CausticsRender_%03d</OutputFileName>
+    <Antialiasing>16</Antialiasing>
+    <MotionBlur>1</MotionBlur>
+  </Output>
+  <Preview>
+    <ShowAsTiled>false</ShowAsTiled>
+    <AutoRender>false</AutoRender>
+    <FramesPerSecond>60</FramesPerSecond>
+  </Preview>
+</CausticsGenerator>
